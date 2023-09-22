@@ -32,3 +32,4 @@ for ttle,rtng,rvw,prc in zip(titles,ratings,reviews,prices):
 d = {'mt':mt,'mr':mr,'mre':mre,'mp':mp}
 model = p.DataFrame(data=d)
 model.to_csv('mobilesdata.csv')
+print ("hello world")
